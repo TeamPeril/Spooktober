@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spooktober:candy_chocolate_bar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spooktober:candy_lollipop"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spooktober:candy_gummy_worms"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spooktober:candy_gumballs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spooktober:candy_corn"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    }
+  ]
+}
