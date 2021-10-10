@@ -12,7 +12,7 @@ license="All rights reserved"
 
 modId="spooktober" #mandatory
 
-version="0.1" #mandatory
+version="1.16.5-0.1.1" #mandatory
 
 displayName="Spooktober" #mandatory
 
@@ -20,10 +20,10 @@ displayName="Spooktober" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/spooktober" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="logo.png" #optional
 
 # A text field displayed in the mod UI
 credits="Thanks to Team Peril" #optional

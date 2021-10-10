@@ -1,9 +1,9 @@
 {
   "itemGroup.spooktober_tab": "Spooktober",
   "tooltip.spooktober.candy": "A collectable treat that can be eaten for special effects.",
-  "item.spooktober.candy_chocolate_bar": "Candy Chocolate Bar",
-  "item.spooktober.candy_lollipop": "Candy Lollipop",
-  "item.spooktober.candy_gummy_worms": "Candy Gummy Worms",
-  "item.spooktober.candy_gumballs": "Candy Gumballs",
-  "item.spooktober.candy_corn": "Candy Corn"
+  "item.spooktober.candy_chocolate_bar": "\u00A76\u00A7lCandy Chocolate Bar",
+  "item.spooktober.candy_lollipop": "\u00A76\u00A7lCandy Lollipop",
+  "item.spooktober.candy_gummy_worms": "\u00A76\u00A7lCandy Gummy Worms",
+  "item.spooktober.candy_gumballs": "\u00A76\u00A7lCandy Gumballs",
+  "item.spooktober.candy_corn": "\u00A76\u00A7lCandy Corn"
 }

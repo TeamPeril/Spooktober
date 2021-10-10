@@ -30,7 +30,7 @@ public class ModEvents {
 	@SubscribeEvent
 	public static void onLivingDeathEvent (LivingDeathEvent event)
 	{
-		boolean debug = true;
+		boolean debug = false;
 		LivingEntity entity = event.getEntityLiving();
 		World worldIn = entity.level;
 		
