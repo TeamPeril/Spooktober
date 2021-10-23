@@ -55,8 +55,6 @@ public class ModEvents {
 			worldIn.addFreshEntity(droppedCandy); //Add it into the world
 		}
 	}
-
-
 }
 
 

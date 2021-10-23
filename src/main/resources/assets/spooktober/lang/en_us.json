@@ -1,9 +1,13 @@
 {
   "itemGroup.spooktober_tab": "Spooktober",
-  "tooltip.spooktober.candy": "A collectable treat that can be eaten for special effects.",
+  "tooltip.spooktober.candy": "An item apart of the Spooktober Fall event. A collectable treat that can be eaten for special effects.",
   "item.spooktober.candy_chocolate_bar": "\u00A76\u00A7lCandy Chocolate Bar",
   "item.spooktober.candy_lollipop": "\u00A76\u00A7lCandy Lollipop",
   "item.spooktober.candy_gummy_worms": "\u00A76\u00A7lCandy Gummy Worms",
   "item.spooktober.candy_gumballs": "\u00A76\u00A7lCandy Gumballs",
-  "item.spooktober.candy_corn": "\u00A76\u00A7lCandy Corn"
+  "item.spooktober.candy_corn": "\u00A76\u00A7lCandy Corn",
+  "item.spooktober.candy_slime_on_a_stick": "\u00A75\u00A7lCandy Slime On A Stick",
+  "item.spooktober.candy_sugar_blaze_stick": "\u00A75\u00A7lCandy Sugar Blaze Stick",
+  "item.spooktober.candy_spider_eye": "\u00A75\u00A7lCandy Spider Eye",
+  "item.spooktober.candy_zombie_brain": "\u00A75\u00A7lCandy Zombie Brain"
 }

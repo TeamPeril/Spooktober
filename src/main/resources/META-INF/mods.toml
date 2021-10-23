@@ -12,7 +12,7 @@ license="All rights reserved"
 
 modId="spooktober" #mandatory
 
-version="1.16.5-0.1.1" #mandatory
+version="1.16.5-0.1.2" #mandatory
 
 displayName="Spooktober" #mandatory
 
