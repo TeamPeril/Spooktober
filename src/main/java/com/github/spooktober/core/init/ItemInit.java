@@ -3,6 +3,10 @@ package com.github.spooktober.core.init;
 import com.github.spooktober.spooktober;
 import com.github.spooktober.common.item.*;
 import com.github.spooktober.core.enums.EnumInit;
+
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -47,7 +51,18 @@ public class ItemInit {
 				.tab(spooktober.SPOOKTOBER_GROUP))); //Modify Properties of food item));
 	
 	//Register Candy Sugar Blaze Stick
-		public static final RegistryObject<CandySugarBlazeStick> CANDY_SUGAR_BLAZE_STICK = ITEMS.register(EnumInit.itemIDS.candy_sugar_blaze_stick, 
-			() -> new CandySugarBlazeStick(new Item.Properties()
-				.tab(spooktober.SPOOKTOBER_GROUP))); //Modify Properties of food item));
+	public static final RegistryObject<CandySugarBlazeStick> CANDY_SUGAR_BLAZE_STICK = ITEMS.register(EnumInit.itemIDS.candy_sugar_blaze_stick, 
+		() -> new CandySugarBlazeStick(new Item.Properties()
+			.tab(spooktober.SPOOKTOBER_GROUP))); //Modify Properties of food item));
+		
+	//Register Haunted Axe
+	public static final RegistryObject<HauntedAxe> HAUNTED_AXE = ITEMS.register(EnumInit.itemIDS.haunted_axe, 
+		() -> new HauntedAxe(new Item.Properties()
+			.tab(spooktober.SPOOKTOBER_GROUP)));
+	
+	//Register Haunted Pumpkin Head
+	public static final RegistryObject<HauntedPumpkinHead> HAUNTED_PUMPKIN_HEAD = ITEMS.register(EnumInit.itemIDS.haunted_pumkin_head, 
+		() -> new HauntedPumpkinHead(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD, 
+				new Item.Properties()				
+			.tab(spooktober.SPOOKTOBER_GROUP)));
 }

@@ -11,7 +11,9 @@ public class EnumInit {
 		public static final String candy_corn = "candy_corn";
 		public static final String candy_spider_eye = "candy_spider_eye";
 		public static final String candy_slime_on_a_stick = "candy_slime_on_a_stick";
-		public static final String candy_sugar_blaze_stick = "candy_sugar_blaze_stick";		
+		public static final String candy_sugar_blaze_stick = "candy_sugar_blaze_stick";
+		public static final String haunted_axe = "haunted_axe";
+		public static final String haunted_pumkin_head = "haunted_pumkin_head";
 	}
 	
 	

@@ -1,0 +1,9 @@
+{
+  "haunted_axe_equip": {
+    "category": "master",
+    "subtitle": "sound.spooktober.haunted_axe",
+    "sounds": [
+      "spooktober:haunted_axe_equip"
+    ]
+  }
+}

@@ -48,7 +48,7 @@ public class CandySlimeOnAStick extends Item{
 	public void appendHoverText(ItemStack stack, World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
 		
 		super.appendHoverText(stack, worldIn, tooltip, flagIn); //Not sure why we need this		
-		tooltip.add(new TranslationTextComponent("tooltip.spooktober.candy")); //Text that displays if not holding shift
+		tooltip.add(new TranslationTextComponent("tooltip.spooktober.candy_rare")); //Text that displays if not holding shift
 		
 	}
 	

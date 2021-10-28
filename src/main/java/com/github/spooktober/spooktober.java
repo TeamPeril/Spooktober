@@ -2,6 +2,8 @@ package com.github.spooktober;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.github.spooktober.core.events.ModSoundEvents;
 import com.github.spooktober.core.init.ItemInit;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,6 +27,7 @@ public class spooktober {
 		bus.addListener(this::setup);
 		
 		ItemInit.ITEMS.register(bus);
+		ModSoundEvents.register(bus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
