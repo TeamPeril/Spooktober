@@ -13,8 +13,20 @@
   "item.spooktober.candy_spider_eye": "§5Candy Spider Eye",
   "item.spooktober.candy_zombie_brain": "§5Candy Zombie Brain",
   
-  "item.spooktober.haunted_axe": "§5Haunted Axe §c(WIP)",
+  "item.spooktober.haunted_axe": "§5Haunted Axe",
   "tooltip.spooktober.haunted_axe": "An axe made of haunted metal.\n§aSet:§r\nHaunated Axe\nPumpkin Head\n§aSet Bonus:§r\nSpeed II",
   "sound.spooktober.haunted_axe": "Evil Laughter as Haunted Axe is equipped.",
-  "item.spooktober.haunted_pumkin_head": "§5Haunted Pumpkin Head §c(WIP)"
+  "item.spooktober.haunted_pumpkin_head": "§5Haunted Pumpkin Head",
+  "tooltip.spooktober.haunted_axe": "An haunted hat that is wearable.\n§aSet:§r\nHaunated Axe\nPumpkin Head\n§aSet Bonus:§r\nSpeed II",
+  
+  "item.spooktober.unusual_effect_applier": "§aUnusual Effect Applier",
+  "tooltip.spooktober.unusual_effect_applier": "Used to apply Unusual Effects to hats.",
+  
+  "block.spooktober.lootbox_tier1": "Tier 1 Lootbox",
+  "tooltip.spooktober.lootbox_tier1": "A Tier 1 lootbox with a random chance of dropping candy, hats, or unusual effects.",
+  
+  "block.spooktober.unusual_binder": "Unusual Effect Binder",
+  "tooltip.spooktober.unusual_binder": "Binds Unusual Effects to Hats"
+  
+  
 }

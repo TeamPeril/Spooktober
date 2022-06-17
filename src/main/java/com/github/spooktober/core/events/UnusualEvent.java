@@ -10,10 +10,10 @@ public class UnusualEvent {
 	public static final double ORBIT_RADIUS = 1.0;
 	public static double ORBIT_ANGLE = 0;
 	
-	public static void displayUnusualEffect(String unusual_type, BasicParticleType particle, World world, PlayerEntity player)
+	public static void displayUnusualEffect(String unusual_type, BasicParticleType particle, World world, PlayerEntity player, double yOffset)
 	{
 		double x = player.xo;
-		double y = player.yo + 2.3;
+		double y = player.yo + yOffset;
 		double z = player.zo;
 		
 		switch(unusual_type)

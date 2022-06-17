@@ -4,7 +4,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.github.spooktober.core.events.ModSoundEvents;
+import com.github.spooktober.core.init.BlockInit;
 import com.github.spooktober.core.init.ItemInit;
+import com.github.spooktober.core.init.TileEntityInit;
+
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -12,6 +15,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import software.bernie.geckolib3.GeckoLib;
 
 @Mod(spooktober.MOD_ID)
 public class spooktober {
@@ -27,8 +31,10 @@ public class spooktober {
 		bus.addListener(this::setup);
 		
 		ItemInit.ITEMS.register(bus);
+		BlockInit.BLOCKS.register(bus);
+		TileEntityInit.TILE_ENTITIES.register(bus);
 		ModSoundEvents.register(bus);
-		
+		GeckoLib.initialize();
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 	
