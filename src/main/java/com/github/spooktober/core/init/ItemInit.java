@@ -74,4 +74,40 @@ public class ItemInit {
 	public static final RegistryObject<UnusualEffectApplier> UNUSUAL_EFFECT_APPLIER = ITEMS.register("unusual_effect_applier", 
 		() -> new UnusualEffectApplier(new Item.Properties()
 			.tab(spooktober.SPOOKTOBER_GROUP))); //Modify Properties of food item));
+
+	//Register Straw Hat
+	public static final RegistryObject<StrawHat> StrawHat = ITEMS.register("straw_hat",
+			() -> new StrawHat(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD,
+					new Item.Properties()
+							.tab(spooktober.SPOOKTOBER_GROUP)));
+
+	//Register Paper Mask
+	public static final RegistryObject<PaperMaskDefault> PaperMaskDefault = ITEMS.register("paper_mask_default",
+			() -> new PaperMaskDefault(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD,
+					new Item.Properties()
+							.tab(spooktober.SPOOKTOBER_GROUP)));
+
+	//Register Creeper Paper Mask
+	public static final RegistryObject<PaperMaskCreeper> PaperMaskCreeper = ITEMS.register("paper_mask_creeper",
+			() -> new PaperMaskCreeper(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD,
+					new Item.Properties()
+							.tab(spooktober.SPOOKTOBER_GROUP)));
+
+	//Register Spider Paper Mask
+	public static final RegistryObject<PaperMaskSpider> PaperMaskSpider = ITEMS.register("paper_mask_spider",
+			() -> new PaperMaskSpider(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD,
+					new Item.Properties()
+							.tab(spooktober.SPOOKTOBER_GROUP)));
+
+	//Register Paper Mask
+	public static final RegistryObject<PaperMaskZombie> PaperMaskZombie = ITEMS.register("paper_mask_zombie",
+			() -> new PaperMaskZombie(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD,
+					new Item.Properties()
+							.tab(spooktober.SPOOKTOBER_GROUP)));
+
+	//Register Straw Hat
+	public static final RegistryObject<ChopperHat> ChopperHat = ITEMS.register("chopper_hat",
+			() -> new ChopperHat(ArmorMaterial.DIAMOND, EquipmentSlotType.HEAD,
+					new Item.Properties()
+							.tab(spooktober.SPOOKTOBER_GROUP)));
 }

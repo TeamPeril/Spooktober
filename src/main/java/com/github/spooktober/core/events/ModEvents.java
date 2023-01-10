@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.world.World;
-
+import java.util.Calendar;
 
 @Mod.EventBusSubscriber(modid = spooktober.MOD_ID)
 public class ModEvents {
@@ -25,12 +25,18 @@ public class ModEvents {
 	{
 		LivingEntity entity = event.getEntityLiving();
 		World worldIn = entity.level;
-		
-		//If entity is not null and (undead or arthropod)
-		if(entity != null && (entity.getMobType() == CreatureAttribute.UNDEAD || entity.getMobType() == CreatureAttribute.ARTHROPOD))
-		{			
-			dropItemEntity(worldIn, getRandomCandyID(), entity.getX(), entity.getY(), entity.getZ(), 1);
+		Calendar calendar = Calendar.getInstance();
+		int month = calendar.get(Calendar.MONTH);
+		// If Fall
+		if(month >= Calendar.SEPTEMBER && month <= Calendar.NOVEMBER)
+		{
+			//If entity is not null and (undead or arthropod)
+			if(entity != null && (entity.getMobType() == CreatureAttribute.UNDEAD || entity.getMobType() == CreatureAttribute.ARTHROPOD))
+			{
+				dropItemEntity(worldIn, getRandomCandyID(), entity.getX(), entity.getY(), entity.getZ(), 1);
+			}
 		}
+
 	}
 }
 

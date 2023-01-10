@@ -22,8 +22,8 @@
   "item.spooktober.unusual_effect_applier": "§aUnusual Effect Applier",
   "tooltip.spooktober.unusual_effect_applier": "Used to apply Unusual Effects to hats.",
   
-  "block.spooktober.lootbox_tier1": "Tier 1 Lootbox",
-  "tooltip.spooktober.lootbox_tier1": "A Tier 1 lootbox with a random chance of dropping candy, hats, or unusual effects.",
+  "block.spooktober.lootbox_tier1": "Spooktober Lootbox",
+  "tooltip.spooktober.lootbox_tier1": "A Loot Box with a 90% chance of dropping candy or a 10% chance for a cosmetic.",
   
   "block.spooktober.unusual_binder": "Unusual Effect Binder",
   "tooltip.spooktober.unusual_binder": "Binds Unusual Effects to Hats"

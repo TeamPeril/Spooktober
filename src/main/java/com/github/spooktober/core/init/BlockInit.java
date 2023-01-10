@@ -37,5 +37,5 @@ public class BlockInit {
 			() -> new LootboxTier1(AbstractBlock.Properties.of(Material.STONE)));
 	
 	public static final RegistryObject<UnusualBinderBlock> UNUSUAL_BINDER = registerBlock("unusual_binder", 
-			() -> new UnusualBinderBlock(AbstractBlock.Properties.of(Material.STONE)));
+			() -> new UnusualBinderBlock(AbstractBlock.Properties.of(Material.STONE).noOcclusion()));
 }

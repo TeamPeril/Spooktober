@@ -23,7 +23,12 @@ public class ItemMethods {
 	
 	private static String[] hatDropList = {
 			"haunted_pumpkin_head",
-			"ghastly_gibus"
+			"straw_hat",
+			"straw_paper_mask_default",
+			"straw_paper_mask_creeper",
+			"straw_paper_mask_spider",
+			"straw_paper_mask_zombie",
+			"chopper_hat"
 	};
 	
 	public static String getRandomCandyID()
